@@ -1,12 +1,12 @@
 {
-  "name": "private-bower",
+  "name": "private-bower-ssdb",
   "version": "1.1.7",
-  "author": "Hacklone <toakak@gmail.com>",
-  "description": "A simple private bower registry",
+  "author": "Patrick Walker <bpatrick.walker@gmail.com>",
+  "description": "A simple private bower registry using SSDB rather than filesystem",
   "main": "./bin/private-bower",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Hacklone/private-bower.git"
+    "url": "git://github.com/PatrickWalker/private-bower"
   },
   "keywords": [
     "bower",
@@ -17,6 +17,7 @@
     "cache",
     "git",
     "svn",
+    "ssdb",
     "package"
   ],
   "scripts": {
@@ -33,6 +34,7 @@
     "node-rest-client": "^1.0.0",
     "optimist": "^0.5.2",
     "path-is-absolute": "^1.0.0",
+    "ssdb": "^0.3.8",
     "URIjs": "^1.5.0"
   },
   "devDependencies": {
@@ -46,13 +48,13 @@
     "superagent": "^1.1.0"
   },
   "bugs": {
-    "url": "https://github.com/Hacklone/private-bower/issues"
+    "url": "https://github.com/PatrickWalker/private-bower/issues"
   },
   "homepage": "http://hacklone.github.io/private-bower",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/Hacklone/private-bower/raw/master/LICENSE"
+      "url": "https://github.com/PatrickWalker/private-bower/raw/master/LICENSE"
     }
   ],
   "analyze": false,

@@ -1,5 +1,8 @@
 {
-    "registryFile": "./bowerRepository.json",
+    "private":{
+        "type" : "SSDB",
+        "target" : "localhost:8888"
+    },
     "timeout": 144000,
     "server": {
         "port": 5678,
