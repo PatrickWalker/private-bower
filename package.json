@@ -1,6 +1,6 @@
 {
   "name": "private-bower-ssdb",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "author": "Patrick Walker <bpatrick.walker@gmail.com>",
   "description": "A simple private bower registry using SSDB rather than filesystem",
   "main": "./bin/private-bower",
@@ -35,7 +35,7 @@
     "optimist": "^0.5.2",
     "path-is-absolute": "^1.0.0",
     "ssdb": "^0.3.8",
-    "URIjs": "^1.5.0"
+    "urijs": "^1.18.0"
   },
   "devDependencies": {
     "chai": "^2.2.0",
